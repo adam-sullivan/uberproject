@@ -1,0 +1,11 @@
+Package: uberdata
+Title: Uber Data Prediction
+Version: 0.0.0.9000
+Authors@R: c(person(“Adam Sullivan”, "Developer", role = c("aut", "cre"),
+		     email = “adam-sullivan@live.com”))
+Author: Adam Sullivan [aut, cre]
+Maintainer: Adam Sullivan <adam-sullivan@live.com>
+Description: This package accepts a dataset from the Uber location database and generates/predicts the time of day for a new pickup location.  
+Depends: R (>= 3.0.2)
+License: Internal
+LazyData: true

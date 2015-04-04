@@ -1,0 +1,84 @@
+
+> confusionResults
+Confusion Matrix and Statistics
+
+              
+nbPreds        afternoon earlyMorning evening
+  afternoon          724          351     266
+  earlyMorning       734         2981     499
+  evening              8            5       1
+  morning              0            1       0
+  overnight          574          709     322
+              
+nbPreds        morning overnight
+  afternoon         60       504
+  earlyMorning     595      1565
+  evening            0         4
+  morning            0         0
+  overnight         81       950
+
+Overall Statistics
+                                          
+               Accuracy : 0.4258          
+                 95% CI : (0.4165, 0.4352)
+    No Information Rate : 0.3701          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.1617          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: afternoon
+Sensitivity                   0.35490
+Specificity                   0.86721
+Pos Pred Value                0.38005
+Neg Pred Value                0.85425
+Prevalence                    0.18657
+Detection Rate                0.06622
+Detection Prevalence          0.17423
+Balanced Accuracy             0.61106
+                     Class: earlyMorning
+Sensitivity                       0.7366
+Specificity                       0.5073
+Pos Pred Value                    0.4677
+Neg Pred Value                    0.7662
+Prevalence                        0.3701
+Detection Rate                    0.2726
+Detection Prevalence              0.5830
+Balanced Accuracy                 0.6220
+                     Class: evening
+Sensitivity               9.191e-04
+Specificity               9.983e-01
+Pos Pred Value            5.556e-02
+Neg Pred Value            9.004e-01
+Prevalence                9.951e-02
+Detection Rate            9.146e-05
+Detection Prevalence      1.646e-03
+Balanced Accuracy         4.996e-01
+                     Class: morning
+Sensitivity               0.000e+00
+Specificity               9.999e-01
+Pos Pred Value            0.000e+00
+Neg Pred Value            9.327e-01
+Prevalence                6.731e-02
+Detection Rate            0.000e+00
+Detection Prevalence      9.146e-05
+Balanced Accuracy         5.000e-01
+                     Class: overnight
+Sensitivity                   0.31426
+Specificity                   0.78688
+Pos Pred Value                0.36039
+Neg Pred Value                0.75018
+Prevalence                    0.27648
+Detection Rate                0.08688
+Detection Prevalence          0.24108
+Balanced Accuracy             0.55057
+
+> Sys.time()
+[1] "2015-04-04 17:32:23 EDT"
+
+> nUsers
+[1] 1869
+
+> sink(NULL)

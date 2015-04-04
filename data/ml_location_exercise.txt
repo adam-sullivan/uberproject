@@ -1,0 +1,49 @@
+
+Prediction Challenge
+
+Uber is interested in predicting future requests from its users.  In the
+accompanying directory you will find two csv files containing records of
+trips.  Each contains a time/datestamp, a pickup and dropoff latitude and
+longitude, and an id for the user.  The two files are meant to be used for
+training and for testing as indicated in their name.
+
+The goal of this challenge is to demonstrate your coding skills as well as
+your ability to build machine learning based predictive models.  The
+suggested amount of time to spend is a few hours.  Please consider the
+suggestions below and choose something that you can finish in that amount
+of time.  C/C++ or Python are suggested languages but feel free to use
+whatever language is easiest for you to complete the task.
+
+Here are some potential tasks to choose from:
+
+1. Write a prediction algorithm for some feature of the data.  Some options
+   are:
+
+   a. Given a user, predict what time of day they are likely to next
+      request a ride.
+
+   b. Given a user and a time/datestamp, predict where they will ask to be
+      picked up.
+
+   c. Given a user, a time/datestamp, and pickup location, predict where
+      they will ask to be dropped off.
+
+   Create an API to make the predictions, and also code that uses the API
+   to report summary statistics on prediction accuracy on the test set.
+
+2. If you are uncomfortable writing prediction algorithms, feel free to
+   demonstrate your coding expertise by implementing a simple query tool
+   that returns a subset of the training data.  In that case, you might
+   also demonstrate additional coding skills.  Some options are:
+
+   a. create a web service for accepting queries and returning results.
+
+   b. create an interesting visualization of the returned results.  
+
+When you are finished add a writeup explaining what you did, the
+methodology you used, any observations you made along the way, and any
+thoughts you have about interesting things that could have been done given
+more time.  Email back your source code, writeup, and some sample results
+from executing your program.
+
+
